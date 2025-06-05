@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+</head>
+
+<body>
+  <section class="hero-section">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark position-relative" style="z-index: 20;">
+      <div class="container px-4">
+        <a class="navbar-brand d-flex align-items-center mx-0" href="#">
+          <div class="bg-orange rounded-3 d-flex align-items-center justify-content-center me-2"
+            style="width: 40px; height: 40px;">
+            <span class="text-white fw-bold fs-3">C</span>
+          </div>
+          <span class="text-white fw-bold fs-5">Materiais para construção</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link fs-5" href="#serviços">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link fs-5" href="#produtos">Produtos</a></li>
+            <li class="nav-item"><a class="nav-link fs-5" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link fs-5" href="#contato">Contato</a></li>
+          </ul>
+          <div class="d-flex align-items-center">
+            <span class="text-white me-3 d-none d-lg-block">
+              <i class="bi bi-telephone text-orange me-2"></i>(19) 3524-9277
+            </span>
+            <button class="btn btn-orange">Orçamento</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container px-4 h-100 d-flex align-items-center position-relative"
+      style="z-index: 10; min-height: calc(100vh - 88px);">
+      <div class="row w-100 align-items-center">
+        <div class="col-lg-6 py-5 text-white">
+          <div class="badge bg-orange bg-opacity-25 border border-orange border-opacity-50 mb-4">
+            <span class="badge bg-orange rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+            Materiais para construção desde 2008
+          </div>
+
+          <h1 class="display-1 fw-bold lh-1 mb-4">
+            Construa seus<br>
+            <span class="text-orange">Sonhos</span><br>
+            Com Qualidade
+          </h1>
+
+          <p class="fs-5 text-light mb-5" style="max-width: 500px;">
+            Da fundação ao acabamento, a Caritá fornece materiais para construção premium e orientação especializada
+            para dar vida aos seus projetos.
+          </p>
+
+          <div class="d-flex flex-column flex-sm-row gap-3 mb-5">
+            <button class="btn btn-orange btn-lg">
+              Nossas marcas <i class="bi bi-arrow-right ms-2"></i>
+            </button>
+            <button class="btn btn-outline-light btn-lg">Localização</button>
+          </div>
+
+          <div class="row text-center pt-4 border-top border-secondary">
+            <div class="col-4">
+              <div class="fs-3 fw-bold text-orange">17+</div>
+              <div class="small text-light">Anos no mercado</div>
+            </div>
+            <div class="col-4">
+              <div class="fs-3 fw-bold text-orange">3000</div>
+              <div class="small text-light">Projetos concluídos</div>
+            </div>
+            <div class="col-4">
+              <div class="fs-3 fw-bold text-orange">400+</div>
+              <div class="small text-light">Produtos premium</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="serviços" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="badge bg-orange bg-opacity-10 px-3 py-2 mb-3">Nossos Serviços</span>
+        <h2 class="display-4 fw-bold text-dark mb-4">Soluções completas para construção</h2>
+        <p class="fs-5 text-muted mx-auto" style="max-width: 600px;">
+          Desde a seleção de materiais até a entrega e o suporte à instalação, fornecemos serviços
+          abrangentes para tornar seu projeto de construção bem-sucedido.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body text-center p-4">
+              <div class="service-icon">
+                <i class="bi bi-truck text-white fs-3"></i>
+              </div>
+              <h5 class="card-title fw-bold mb-3">Entrega rápida</h5>
+              <p class="card-text text-muted">Entrega no mesmo dia disponível para pedidos feitos antes
+                das 14 horas em nossa área de serviço.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body text-center p-4">
+              <div class="service-icon">
+                <i class="bi bi-calculator text-white fs-3"></i>
+              </div>
+              <h5 class="card-title fw-bold mb-3">Estimativa de material</h5>
+              <p class="card-text text-muted">Serviço de estimativa profissional gratuito para ajudá-lo
+                a calcular exatamente o que você precisa.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body text-center p-4">
+              <div class="service-icon">
+                <i class="bi bi-hammer text-white fs-3"></i>
+              </div>
+              <h5 class="card-title fw-bold mb-3">Suporte à instalação</h5>
+              <p class="card-text text-muted">Conecte-se com empreiteiros certificados e obtenha
+                orientação de instalação de nossos especialistas.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body text-center p-4">
+              <div class="service-icon">
+                <i class="bi bi-headphones text-white fs-3"></i>
+              </div>
+              <h5 class="card-title fw-bold mb-3">Consulta especializada</h5>
+              <p class="card-text text-muted">Nossa equipe experiente fornece consultoria técnica
+                e recomendações de produtos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body text-center p-4">
+              <div class="service-icon">
+                <i class="bi bi-shield-check text-white fs-3"></i>
+              </div>
+              <h5 class="card-title fw-bold mb-3">Garantia de qualidade</h5>
+              <p class="card-text text-muted">Todos os produtos vêm com garantias do fabricante e
+                nossa garantia de qualidade.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body text-center p-4">
+              <div class="service-icon">
+                <i class="bi bi-clock text-white fs-3"></i>
+              </div>
+              <h5 class="card-title fw-bold mb-3">Programação flexível</h5>
+              <p class="card-text text-muted">Agende entregas e coletas de acordo com sua conveniência,
+                inclusive nos finais de semana.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="produtos" class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="badge bg-orange bg-opacity-10 px-3 py-2 mb-3">Produtos em destaque</span>
+        <h2 class="display-4 fw-bold text-dark mb-4">Materiais de construção premium</h2>
+        <p class="fs-5 text-muted mx-auto" style="max-width: 600px;">
+          Descubra nossa linha cuidadosamente selecionada de materiais de construção de alta qualidade
+          de fabricantes confiáveis.
+        </p>
+      </div>
+
+      <div class="row g-4 mb-5">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="position-relative">
+              <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=400&h=300&fit=crop"
+                class="card-img-top" alt="Premium Concrete Mix" style="height: 200px; object-fit: cover;">
+              <span class="badge bg-orange position-absolute top-0 start-0 m-3">Mais vendido</span>
+            </div>
+            <div class="card-body">
+              <small class="text-orange fw-medium">Concreto & Cimento</small>
+              <h6 class="card-title fw-bold mt-2">Mistura de concreto premium</h6>
+              <p class="card-text small text-muted">Mistura de concreto de alta resistência perfeita para
+                fundações e estruturas.</p>
+              <div class="justify-content-between align-items-center">
+                <span class="h5 fw-bold mb-0">R$45,99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="position-relative">
+              <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=400&h=300&fit=crop"
+                class="card-img-top" alt="Steel Reinforcement Bars" style="height: 200px; object-fit: cover;">
+              <span class="badge bg-dark position-absolute top-0 start-0 m-3">Nível profissional</span>
+            </div>
+            <div class="card-body">
+              <small class="text-orange fw-medium">Aço e metal</small>
+              <h6 class="card-title fw-bold mt-2">Vergalhões de aço</h6>
+              <p class="card-text small text-muted">Vergalhões de aço de alta resistência para projetos de construção em
+                concreto armado.</p>
+              <div class="justify-content-between align-items-center">
+                <span class="h5 fw-bold mb-0">R$89,99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="position-relative">
+              <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=400&h=300&fit=crop"
+                class="card-img-top" alt="Premium Concrete Mix" style="height: 200px; object-fit: cover;">
+              <span class="badge bg-orange position-absolute top-0 start-0 m-3">Mais vendido</span>
+            </div>
+            <div class="card-body">
+              <small class="text-orange fw-medium">Concreto & Cimento</small>
+              <h6 class="card-title fw-bold mt-2">Mistura de concreto premium</h6>
+              <p class="card-text small text-muted">Mistura de concreto de alta resistência perfeita para
+                fundações e estruturas.</p>
+              <div class="justify-content-between align-items-center">
+                <span class="h5 fw-bold mb-0">R$45,99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="position-relative">
+              <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=400&h=300&fit=crop"
+                class="card-img-top" alt="Steel Reinforcement Bars" style="height: 200px; object-fit: cover;">
+              <span class="badge bg-dark position-absolute top-0 start-0 m-3">Nível profissional</span>
+            </div>
+            <div class="card-body">
+              <small class="text-orange fw-medium">Aço e metal</small>
+              <h6 class="card-title fw-bold mt-2">Vergalhões de aço</h6>
+              <p class="card-text small text-muted">Vergalhões de aço de alta resistência para projetos de construção em
+                concreto armado.</p>
+              <div class="justify-content-between align-items-center">
+                <span class="h5 fw-bold mb-0">R$89,99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <button class="btn btn-dark btn-lg">Ver mais produtos</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="py-5 bg-dark text-white">
+    <div class="container px-4">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <span class="badge bg-orange bg-opacity-25 px-3 py-2 mb-4">Sobre a Caritá</span>
+          <h2 class="display-4 fw-bold mb-4">
+            Construindo a excelência,<br>
+            <span class="text-orange">Um projeto de cada vez</span>
+          </h2>
+          <p class="fs-5 text-light mb-4">
+            Desde 2008, a Caritá tem sido a parceira de confiança de empreiteiros, construtores e proprietários de
+            imóveis em toda a região.
+          </p>
+
+          <ul class="list-unstyled mb-4">
+            <li class="d-flex align-items-center mb-2">
+              <span class="bg-orange rounded-circle me-3" style="width: 8px; height: 8px;"></span>
+              Materiais de qualidade premium dos principais fabricantes
+            </li>
+            <li class="d-flex align-items-center mb-2">
+              <span class="bg-orange rounded-circle me-3" style="width: 8px; height: 8px;"></span>
+              Consultoria especializada e suporte técnico
+            </li>
+            <li class="d-flex align-items-center mb-2">
+              <span class="bg-orange rounded-circle me-3" style="width: 8px; height: 8px;"></span>
+              Preços competitivos com opções de pagamento flexíveis
+            </li>
+            <li class="d-flex align-items-center mb-2">
+              <span class="bg-orange rounded-circle me-3" style="width: 8px; height: 8px;"></span>
+              Serviços de entrega e logística confiáveis
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="card bg-secondary border-0 text-center h-100">
+                <div class="card-body">
+                  <div class="service-icon mb-3" style="width: 48px; height: 48px; font-size: 1.5rem;">
+                    <i class="bi bi-award text-white"></i>
+                  </div>
+                  <h4 class="text-orange fw-bold">17+</h4>
+                  <h6 class="text-white">Anos de atividade</h6>
+                  <small class="text-white">Atendendo ao setor de construção</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card bg-secondary border-0 text-center h-100">
+                <div class="card-body">
+                  <div class="service-icon mb-3" style="width: 48px; height: 48px; font-size: 1.5rem;">
+                    <i class="bi bi-people text-white"></i>
+                  </div>
+                  <h4 class="text-orange fw-bold">10000+</h4>
+                  <h6 class="text-white">Clientes satisfeitos</h6>
+                  <small class="text-white">Confiado por engenheiros</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card bg-secondary border-0 text-center h-100">
+                <div class="card-body">
+                  <div class="service-icon mb-3" style="width: 48px; height: 48px; font-size: 1.5rem;">
+                    <i class="bi bi-building text-white"></i>
+                  </div>
+                  <h4 class="text-orange fw-bold">3000+</h4>
+                  <h6 class="text-white">Projetos concluídos</h6>
+                  <small class="text-white">De residencial a comercial</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card bg-secondary border-0 text-center h-100">
+                <div class="card-body">
+                  <div class="service-icon mb-3" style="width: 48px; height: 48px; font-size: 1.5rem;">
+                    <i class="bi bi-leaf text-white"></i>
+                  </div>
+                  <h4 class="text-orange fw-bold">100%</h4>
+                  <h6 class="text-white">Certificação ecológica</h6>
+                  <small class="text-white">Práticas sustentáveis</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="badge bg-orange bg-opacity-10 text-orange px-3 py-2 mb-3">Get In Touch</span>
+        <h2 class="display-4 fw-bold text-dark mb-4">Ready to Start Your Project?</h2>
+        <p class="fs-5 text-muted mx-auto" style="max-width: 600px;">
+          Contact our team of experts for personalized advice, quotes, and support for your building project.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card border-0 shadow mb-3">
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="service-icon me-3" style="width: 48px; height: 48px; font-size: 1.25rem;">
+                  <i class="bi bi-telephone text-white"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-1">Call Us</h6>
+                  <p class="mb-1 fw-medium">(555) 123-4567</p>
+                  <small class="text-muted">Mon-Fri 7AM-6PM, Sat 8AM-4PM</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-0 shadow mb-3">
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="service-icon me-3" style="width: 48px; height: 48px; font-size: 1.25rem;">
+                  <i class="bi bi-envelope text-white"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-1">Email Us</h6>
+                  <p class="mb-1 fw-medium">info@buildmart.com</p>
+                  <small class="text-muted">We'll respond within 24 hours</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-0 shadow mb-3">
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="service-icon me-3" style="width: 48px; height: 48px; font-size: 1.25rem;">
+                  <i class="bi bi-geo-alt text-white"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-1">Visit Our Store</h6>
+                  <p class="mb-1 fw-medium">123 Construction Ave</p>
+                  <small class="text-muted">Free parking available</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card border-0 shadow">
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="service-icon me-3" style="width: 48px; height: 48px; font-size: 1.25rem;">
+                  <i class="bi bi-clock text-white"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-1">Store Hours</h6>
+                  <p class="mb-1 fw-medium">Mon-Fri: 7AM-6PM</p>
+                  <small class="text-muted">Sat: 8AM-4PM, Sun: Closed</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8">
+          <div class="card border-0 shadow">
+            <div class="card-body p-4">
+              <h4 class="fw-bold mb-4">Send Us a Message</h4>
+              <form>
+                <div class="row mb-3">
+                  <div class="col-md-6">
+                    <label class="form-label">First Name *</label>
+                    <input type="text" class="form-control" placeholder="John">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Last Name *</label>
+                    <input type="text" class="form-control" placeholder="Doe">
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <div class="col-md-6">
+                    <label class="form-label">Email *</label>
+                    <input type="email" class="form-control" placeholder="john@example.com">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Phone</label>
+                    <input type="tel" class="form-control" placeholder="(555) 123-4567">
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">Project Type</label>
+                  <select class="form-select">
+                    <option value="">Select project type</option>
+                    <option value="residential">Residential Construction</option>
+                    <option value="commercial">Commercial Building</option>
+                    <option value="renovation">Renovation/Remodel</option>
+                    <option value="landscaping">Landscaping</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <div class="mb-4">
+                  <label class="form-label">Message *</label>
+                  <textarea class="form-control" rows="4"
+                    placeholder="Tell us about your project requirements..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-orange btn-lg w-100">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="d-flex justify-content-center gap-3 mb-3">
+        <a href="https://facebook.com" aria-label="Facebook" target="_blank"
+          class="social-btn btn social-facebook rounded-circle d-flex align-items-center justify-content-center"
+          style="width: 50px; height: 50px;">
+          <i class="bi bi-facebook fs-5"></i>
+        </a>
+        <a href="https://twitter.com" aria-label="Twitter" target="_blank"
+          class="social-btn btn social-twitter text-white rounded-circle d-flex align-items-center justify-content-center"
+          style="width: 50px; height: 50px;">
+          <i class="bi bi-twitter fs-5"></i>
+        </a>
+        <a href="https://instagram.com" aria-label="Instagram" target="_blank"
+          class="social-btn btn social-instagram text-white rounded-circle d-flex align-items-center justify-content-center"
+          style="width: 50px; height: 50px;">
+          <i class="bi bi-instagram fs-5"></i>
+        </a>
+        <a href="https://linkedin.com" aria-label="Linkedin" target="_blank"
+          class="social-btn btn social-linkedin text-white rounded-circle d-flex align-items-center justify-content-center"
+          style="width: 50px; height: 50px;">
+          <i class="bi bi-linkedin fs-5"></i>
+        </a>
+        <a href="https://whatsapp.com" aria-label="Whatsapp" target="_blank"
+          class="social-btn btn social-whatsapp text-white rounded-circle d-flex align-items-center justify-content-center"
+          style="width: 50px; height: 50px;">
+          <i class="bi bi-whatsapp fs-5"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="d-flex align-items-center mb-4">
+            <div class="bg-orange rounded-3 d-flex align-items-center justify-content-center me-2"
+              style="width: 40px; height: 40px;">
+              <span class="text-white fw-bold">BM</span>
+            </div>
+            <span class="text-white fw-bold fs-4">BuildMart</span>
+          </div>
+
+          <p class="text-light mb-4">
+            Your trusted partner for premium building materials and construction solutions.
+            Building excellence since 1995 with quality products and exceptional service.
+          </p>
+
+          <div class="mb-3">
+            <i class="bi bi-telephone text-orange me-2"></i>
+            <span class="text-light">(555) 123-4567</span>
+          </div>
+          <div class="mb-3">
+            <i class="bi bi-envelope text-orange me-2"></i>
+            <span class="text-light">info@buildmart.com</span>
+          </div>
+          <div class="mb-3">
+            <i class="bi bi-geo-alt text-orange me-2"></i>
+            <span class="text-light">123 Construction Ave<br>Builder City, BC 12345</span>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 mb-4">
+          <h6 class="fw-bold mb-3">Products</h6>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Concrete & Cement</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Steel & Metal</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Wood & Lumber</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Tiles & Flooring</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Roofing Materials</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Insulation</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-4 mb-4">
+          <h6 class="fw-bold mb-3">Services</h6>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Material Delivery</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Project Estimation</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Technical Support</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Installation Services</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Bulk Orders</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Custom Solutions</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-4 mb-4">
+          <h6 class="fw-bold mb-3">Company</h6>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">About Us</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Our Team</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Careers</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">News & Updates</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Sustainability</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-top border-secondary">
+      <div class="container py-4">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <small class="text-muted">
+              © 2024 BuildMart. All rights reserved. | Privacy Policy | Terms of Service
+            </small>
+          </div>
+          <div class="col-md-4 text-md-end">
+            <a href="#" class="text-muted me-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-muted me-3"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-muted me-3"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-muted"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

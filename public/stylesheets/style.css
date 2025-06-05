@@ -1,0 +1,96 @@
+.hero-section {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #1e293b 100%);
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1920&h=1080&fit=crop');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(30, 41, 59, 0.5), rgba(51, 65, 85, 0.4));
+}
+
+.btn-orange {
+  background-color: #e15a15;
+  border-color: #f4f0e4;
+  color: #f4f0e4;
+}
+
+.btn-orange:hover {
+  background-color: #f4f0e4;
+  border-color: #e15a15;
+  color: #e15a15;
+}
+
+.text-orange {
+  color: #e15a15 !important;
+}
+
+.bg-orange {
+  background-color: #e15a15;
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  transition: transform 0.3s ease;
+}
+
+.service-icon {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #fb923c, #f97316);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.social-btn {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-btn.social-facebook {
+  background-color: #1877F2;
+}
+
+.social-btn.social-twitter {
+  background-color: #1DA1F2;
+}
+
+/* Or #000000 for X */
+.social-btn.social-instagram {
+  background-color: #E1306C;
+}
+
+.social-btn.social-linkedin {
+  background-color: #0A66C2;
+}
+
+.social-btn.social-whatsapp {
+  background-color: #25D366;
+}
