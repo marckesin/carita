@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "engines": {
+    "node": "20.x"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
