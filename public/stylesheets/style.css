@@ -59,7 +59,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 1.5rem;
 }
 
 .social-btn {
@@ -82,7 +81,6 @@
   background-color: #1DA1F2;
 }
 
-/* Or #000000 for X */
 .social-btn.social-instagram {
   background-color: #E1306C;
 }
